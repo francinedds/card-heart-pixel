@@ -22,20 +22,20 @@ function App() {
           <span>My heart when I'm with you</span>
           <div className="flex gap-1">
             <button>
-              <img src="public/assets/minimalize.png" alt="minimalize" className="w-[20px]"/>
+              <img src="/assets/minimalize.png" alt="minimalize" className="w-[20px]"/>
             </button>
             <button>
-              <img src="public/assets/close.png" alt="close" className="w-[20px]"/>
+              <img src="/assets/close.png" alt="close" className="w-[20px]"/>
             </button>
           </div>
         </div>
 
         <div className="bg-neutral-300 p-5">
           <div className="flex items-center justify-center -mt-4">
-            <button onClick={handleClick}><img src="public\assets\fill.png" alt="coração" id='button-heart' className="w-[100px] mx-auto"/></button>
+            <button onClick={handleClick}><img src="/assets/fill.png" alt="coração" id='button-heart' className="w-[100px] mx-auto"/></button>
           </div>
           <div className="flex items-center justify-center w-80 h-80 -mt-5 mx-auto">
-            <img src={`public/assets/sprite-${index}.png`} alt={`frame ${index}`} className="object-contain max-w-full max-h-full" />
+            <img src={`/assets/sprite-${index}.png`} alt={`frame ${index}`} className="object-contain max-w-full max-h-full" />
           </div>
           {completed && <p className="text-red-800 font-semibold">You done! I Love you!</p>}
         </div>
